@@ -1,0 +1,102 @@
+.tourTitles{
+    font-size: 50px;
+    color: rgb(239, 18, 128);
+    text-align: center;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+.mahanewspaper{
+    column-count: 3;
+    font-size: 19px;
+}
+
+.catogoryTitle{
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 40px;
+}
+
+.mahacatogaryDiv{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    background-color: rgb(238, 241, 244);
+}
+.textWBCat{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 25px;
+    padding: 10px 20px;
+
+}
+
+.mahaimages{
+    height: 350px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+
+
+
+
+  
+
+@media only screen and (max-width: 767px) {
+    
+    .mahanewspaper{
+        font-size: 20px;
+        column-count: 1;
+        text-align: center;
+        font-size: 15px;
+    } 
+
+    .mahacatogaryDiv{
+        display: block;
+        justify-content:space-between;
+        margin: 10px 0px;
+        padding: 10px 15px;
+        background-color: rgb(238, 241, 244);
+    }
+    
+
+    .mahaimages{
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .mahanewspaper{
+        font-size: 20px;
+        color: rgb(197, 37, 154);
+        column-count: 2;
+
+    } 
+   
+    .mahacatogaryDiv{
+        display: block;
+        justify-content:space-between;
+        margin: 10px 0px;
+        padding: 10px 15px;
+        background-color: rgb(238, 241, 244);
+    }
+       
+    .mahaimages{
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,80 @@
+#coverImages{
+width: 100%;
+height: 450px;
+}
+
+#proImages{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-top: -80px;
+}
+
+
+.ProfileNavbar{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 19px;
+    font-weight: bolder;
+    background-color: rgb(246, 120, 120);
+}
+
+li{
+    list-style-type: none;
+}
+#NamePostion{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: -400px;
+}
+.profile{
+    border: 2px solid rebeccapurple;
+}
+
+
+#NamePostion{
+    position: relative;
+    bottom: 150px;
+    left: 240px;
+    font-size: 35px;
+}
+
+
+.profileDeatils{
+
+   height: 700px;
+    font-size: 20px;
+    height: 200px;
+    width: 25%;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#myBtnProfile{
+  border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+    background-color: blue;
+}
+
+#myBtnProfile2{
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+
+}
+.about{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about>div{
+    width: 48%;
+   
+}

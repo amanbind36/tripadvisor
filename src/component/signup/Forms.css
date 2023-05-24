@@ -1,0 +1,111 @@
+.maindivimg{
+    background: url(../mp/photos/bannnermp.jpg);
+}
+
+
+.authForm{
+    display: block;
+    justify-content: center;
+    width: 40%;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    background:transparent;
+    color: white;
+    border-radius: 30px;
+}
+#headingLogin{
+    font-size: 55px;
+    color: white;
+}
+
+#name{
+padding: 8px 15px;
+font-size: 25px;
+margin: 5px;
+border-radius: 20px;
+}
+
+#email{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+
+
+}
+
+#password{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+
+
+}
+
+#ConfirmPass{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+
+
+}
+
+#LoginBtn{
+
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 25px;
+}
+#LoginBtn:hover{
+    transition: 0.5s;
+    transform:translateX(10px);
+    color: rgb(12, 12, 12);
+    background-color: rgb(14, 10, 232);
+}
+
+
+#signupBtn{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 25px;
+
+
+}
+#signupBtn:hover{
+   transition: 0.5s;
+   transform:translateX(10px);
+   color: rgb(12, 12, 12);
+   background-color: rgb(14, 10, 232);
+}
+
+#topBtn1{
+    font-size: 35px;
+    color:black;
+    background-color:aqua;
+    padding: 5px 25px;
+    margin: 5px;
+    width: 40%;
+    
+}
+#topBtn1:hover{
+    
+}
+
+#topBtn2{
+    font-size: 35px;
+    color:black;
+    background-color:blue;
+    padding: 5px 25px;
+    margin: 5px;
+    width: 40%;
+
+
+}
+#topBtn2:hover{
+background-color:rgb(103, 103, 237);
+}

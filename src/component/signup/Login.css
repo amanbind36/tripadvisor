@@ -1,0 +1,27 @@
+.loginContainer{
+    border: 2px solid red;
+    width: 400px;
+    display: block;
+    justify-content: stretch;
+}
+
+#username{
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 25px;
+   
+}
+
+#password{
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 25px;
+
+}
+
+#logBtn{
+    padding: 8px 135px;
+    font-size: 25px;
+
+
+}

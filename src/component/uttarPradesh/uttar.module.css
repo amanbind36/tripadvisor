@@ -1,0 +1,110 @@
+.container{
+   
+    height: 600px;
+    width: 100%;
+    font-family: 	Rockwell Extra Bold;
+
+}
+.main{
+    background-image: url("https://media.istockphoto.com/id/484389570/photo/himalayas.jpg?s=612x612&w=0&k=20&c=6jM32XJBWlvv6x7AF-av52jlncPkz5hn_AEhjaDSFYI=");
+    background-repeat: no-repeat;
+    
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.text>h1{
+    color: white;
+    font-size: 50px;
+}
+.tour{
+
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.about{
+    width: 100%;
+    height: 80%;
+  
+   display: flex;
+   justify-content: space-between;
+   font-family: 	Rockwell Extra Bold;
+   font-size: 18px;
+}
+.about>div{
+
+    width: 47%;
+    height: 100%;
+    text-align: left;
+}
+.ad{
+    width: 80%;
+    height: 450px;
+
+   display: flex;
+   justify-content: space-between;
+   font-family: 	Rockwell Extra Bold;
+   font-size: 18px;
+   margin: auto;
+}
+.ad>div{
+
+    width: 47%;
+    height: 100%;
+    text-align: left;
+}
+.textt{
+    height: 60%;
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 100px) {
+    
+    
+    .about{
+        width: 100%;
+        height: 80%;
+     
+       display: block;
+       justify-content: space-between;
+       font-family: 	Rockwell Extra Bold;
+       font-size: 18px;
+    }
+    .about>div{
+
+        width: 100%;
+        height: 50%;
+        text-align: left;
+    }
+    .tour{
+
+        width: 80%;
+        height: 1000px;
+        margin: auto;
+    }
+    .ad{
+        width: 80%;
+        height: 900px;
+    
+       display: block;
+       justify-content: space-between;
+       font-family: 	Rockwell Extra Bold;
+       font-size: 18px;
+       margin: auto;
+    }
+    .ad>div{
+    
+        width: 100%;
+        height: 50%;
+        text-align: left;
+    }
+   
+}

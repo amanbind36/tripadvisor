@@ -1,0 +1,33 @@
+
+.container{
+    display: flex;
+    
+}
+.main{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+button{
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 401px) {
+    .main{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 400px) and (min-width: 100px) {
+    .main{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+}

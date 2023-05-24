@@ -1,0 +1,188 @@
+/* .main{
+   
+    height: 800px;
+    width: 80%;
+    margin: auto;
+    background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
+} */
+.container{
+    font-family: 	Rockwell Extra Bold;
+    margin-top: 100px;
+}
+.main>input{
+    padding: 20px;
+    width: 65%;
+    border-radius: 20px;
+    position: relative;
+    bottom: 400px;
+    z-index: 5;
+    
+}
+.ways{
+
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+.ways>div{
+    text-align: left;
+}
+/* .destination{
+  
+    
+height: 84%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+} */
+.destination>div{
+   
+    height: 95%;
+    width: 90%;
+
+
+}
+.upper{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 60%;
+    width: 100%;
+}
+.downer{
+ 
+    height: 40%;
+    width: 100%;
+}
+.downer>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.list{
+   
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+.list>div{
+    
+    width: 50%;
+    height: 100%;
+}
+.lefta{
+    background-color: rgb(250,241,237);
+}
+.text{
+    margin-top: 100px;
+}
+.text>button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.ink{
+    text-decoration: none;
+}
+
+
+
+
+.swiper {
+    margin: 0;
+    padding: 0;
+      width: 100%;
+      height: 300px;
+      border-radius: 25px;
+  
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      border:1.5px solid black;
+      border-radius: 25px;
+      
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 99.5%;
+      height: 500px;
+      object-fit: fill;
+      border-radius: 25px;
+  
+    }
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mySwiper{
+      width: 100%;
+    }
+    .imgs{
+        width: 300px;
+        height: 300px;
+    }
+    .mys{
+        width: 300px;
+        height: 300px;
+        border: 1px solid red;
+        
+    }
+    .cardimg{
+        width: 300px;
+        gap: 40px;
+        display: flex;
+        height: 300px;
+    }
+    .scroll{
+        width: 300px;
+        gap: 40px;
+       
+        height: 300px;
+    }
+    .scontainer{
+        gap: 30px;
+        display: flex;
+    }
+    .lastcard{
+        gap: 70px;
+        margin: auto;
+        width: 80%;
+        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .lastcard>div{
+        margin-top: 90px;
+    }
+    
+
+    @media only screen and (max-width: 800px) and (min-width: 401px) {
+        .lastcard{
+            gap: 70px;
+            margin: auto;
+            width: 100%;
+            
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media only screen and (max-width: 400px) and (min-width: 100px) {
+        .lastcard{
+            gap: 70px;
+            margin: auto;
+            width: 80%;
+            
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .list{
+            display: block;
+        }
+        .list>div{
+    
+            width: 100%;
+            height: 50%;
+        }
+    }

@@ -1,0 +1,27 @@
+.music-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+}
+
+#musicBtn{
+  background-color: transparent;
+  border: none;
+}
+
+#misicIons{
+  color: rgb(237, 15, 15);
+
+  cursor: pointer;
+
+  position: absolute;
+  top: 14px;
+  right: 70px;
+  
+}
+
+#misicIons:hover{
+  color: rgb(15, 237, 115);
+
+}
